@@ -7,11 +7,11 @@ module.exports = [
   {
     task: 'squats',
     completed: false,
-    owner_id: 2
+    owner_id: 1
   },
   {
     task: 'brush horse',
     completed: false,
-    owner_id: 3
+    owner_id: 1
   }
 ];
