@@ -25,21 +25,21 @@ describe('app routes', () => {
     const expectation = [
       {
         'id': 1,
-        'task': 'bessie',
-        'coolfactor': 3,
-        'owner_id': 1
+        'task': '',
+        'completed': 3,
+        'user_id': 1
       },
       {
         'id': 2,
-        'task': 'jumpy',
-        'coolfactor': 4,
-        'owner_id': 1
+        'task': '',
+        'completed': 4,
+        'user_id': 1
       },
       {
         'id': 3,
-        'task': 'spot',
-        'coolfactor': 10,
-        'owner_id': 1
+        'task': '',
+        'completed': 10,
+        'user_id': 1
       }
     ];
 

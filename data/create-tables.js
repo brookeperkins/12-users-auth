@@ -19,9 +19,9 @@ async function run() {
                 );           
                 CREATE TABLE todos (
                     id SERIAL PRIMARY KEY NOT NULL,
-                    todo VARCHAR(512) NOT NULL,
+                    task VARCHAR(512) NOT NULL,
                     completed BOOLEAN NOT NULL,
-                    owner_id INTEGER NOT NULL REFERENCES users(id)
+                    user_id INTEGER NOT NULL REFERENCES users(id)
             );
         `);
 
